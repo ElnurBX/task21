@@ -1,0 +1,66 @@
+body{
+    background-color: #616264;
+}
+.formcont{
+    width: 50%;
+    margin: 100px auto;
+    background:linear-gradient(90deg,#2e3236,#323539);
+    padding: 30px;
+    color: #fff;
+    border-radius: 15px;
+}
+.nsa{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+input{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.selectdiv{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.selectdiv div{
+    width: 100%;
+}
+.selectdiv div select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.tab{
+    width: 80%;
+    margin: auto;
+}
+.df{
+    margin:30px auto;
+    text-align: center;
+}
+.df button{
+    border: none;
+    background: rgba(66, 119, 66, 0.556);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 800px){
+    .nsa,.selectdiv{
+        display: block;
+    }
+    .tab{
+        width: 100%;
+    }
+}  
+@media only screen and (max-width: 500px){
+    .formcont{
+        width: 98%;
+    }
+}
